@@ -14,9 +14,11 @@ MultiTwitchBot is an IRC based multi-room raffle bot developed to operate with t
   - More features to be added by demand...
 
 
-### How to use
+## How to use
 
-MultiTwitchBot is python based. If you are using the pre-packaged exe, you don't have any pre-requisites other than the exe.
+MultiTwitchBot is python based. If you are using the pre-packaged exe, you don't have any pre-requisites other than the exe. (To be provided at a later date - currently executed manually by Wolfric83
+
+
 Commands:
 * **_!resetrafflebot_** - Leaves all rooms, and resets raffle bot to listen to only your commands
     * _Notifies all rooms_
@@ -42,3 +44,5 @@ Commands:
 * Keyword: "keytime"
 * Entry Type: Single Entry Mode
 * Past Winners Ignored: 3
+* Notice Text: M+15 keys
+* Notice Time: 30 seconds
