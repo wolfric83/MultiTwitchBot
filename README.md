@@ -40,7 +40,8 @@ Commands:
 * **_!noticetime <Number>_** - change notice timeout to <Number> seconds (Minimum 30, default 30)
 
 #### Default settings
-* Channel list: Wolfric83, wolfrickeystonebot
+* Channel list: Wolfric83, wolfrickeystonebot (Will be updated to Zatcharygaming when ready for proper use)
+  * Additional hosts must be invited by an existing owner of a channel the bot is currently in by _!invitehost_
 * Keyword: "keytime"
 * Entry Type: Single Entry Mode
 * Past Winners Ignored: 3
