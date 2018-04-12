@@ -33,7 +33,7 @@ Commands:
 * **_!singleraffle_** - Turn on Single Entry mode
 * **_!multiraffle** - Turn on Multi entory mode (one per User/Channel)
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
-* **_!changenotice -Number-_** - Change the Notice text (what is being raffled) 
+* **_!changenotice -NoticeText-_** - Change the Notice text (what is being raffled) 
     * Example: **_!changenotice Free Gift Sub_**
     * changes repeating notice to: Now Raffling: Free Gift Sub. Enter by typing: -Keyword-
     * will send initial notice: Next raffle draw: Free Gift Sub. by -yourname-
