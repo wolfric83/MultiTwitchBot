@@ -31,7 +31,7 @@ Commands:
 * **_!startraffle_** - Resets the current Raffle list, waits for saved keyword for entry to raffle
 * **_!draw_** - Draws one winner and reports to all chats. removes winner from list. multiple !draw commands will pull unique winners until none remain in the current list.
 * **_!singleraffle_** - Turn on Single Entry mode
-* **_!multiraffle** - Turn on Multi entory mode (one per User/Channel)
+* **_!multiraffle_** - Turn on Multi entory mode (one per User/Channel)
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
 * **_!changenotice -NoticeText-_** - Change the Notice text (what is being raffled) 
     * Example: **_!changenotice Free Gift Sub_**
