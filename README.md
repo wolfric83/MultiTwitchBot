@@ -7,7 +7,7 @@ MultiTwitchBot is an IRC based multi-room raffle bot developed to operate with t
   - Magic happens
 
 # Features!
-<<
+
   - Allow single entries per person, or multiple for each room they enter from
   - Internal Mods list (possible future option for any channel mod to perform _-some-_ actions
   - Good Luck Protection - Host Selectable winner exclude system - exclude X previous winners from draw
