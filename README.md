@@ -55,4 +55,5 @@ Commands:
 * option to add BLP to roll each time someone doesn't win
 * RaffleGroups - ability to have multiple raffle groups (far future)
 * Long term storage of BLP (future)
+* Sub Luck
 * startup UI?
