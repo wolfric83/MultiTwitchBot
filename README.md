@@ -49,3 +49,10 @@ Commands:
 * Past Winners Ignored: 3
 * Notice Text: M+15 keys
 * Notice Time: 30 seconds
+
+## ToDo:
+* change to Rolls instead of random pick
+* option to add BLP to roll each time someone doesn't win
+* RaffleGroups - ability to have multiple raffle groups (far future)
+* Long term storage of BLP (future)
+* startup UI?
