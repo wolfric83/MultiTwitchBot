@@ -57,6 +57,7 @@ Commands:
 * Long term storage of BLP (future)
 * Sub Luck
 * startup UI?
+* SingleChannel Mode?
 
 ## BLP Thoughts (Not Yet Implemented)
 Base random roll starts at 1000
