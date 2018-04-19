@@ -57,3 +57,10 @@ Commands:
 * Long term storage of BLP (future)
 * Sub Luck
 * startup UI?
+
+## BLP Thoughts (Not Yet Implemented)
+Base random roll starts at 1000
+Optional BLP Factor - Selectable percentage (or add?) - default 1%?
+Optional Sub Factor - Selectable percentage (or add?) - default 25%?
+
+BLP and Sub factor combine? (5 missed wins for subscriber = 30% added to max roll number?)
