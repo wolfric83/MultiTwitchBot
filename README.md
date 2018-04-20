@@ -51,16 +51,17 @@ Commands:
 * Notice Time: 30 seconds
 
 ## ToDo:
-* change to Rolls instead of random pick
-* option to add BLP to roll each time someone doesn't win
+* change to Rolls instead of random pick  --- in testing
+  * Reroll on draw --- in testing
+* option to add BLP to roll each time someone doesn't win --- in testing
 * RaffleGroups - ability to have multiple raffle groups (far future)
 * Long term storage of BLP (future)
-* Sub Luck
+* Sub Luck  --- in testing
 * startup UI?
 * SingleChannel Mode?
 
 ## BLP Thoughts (Not Yet Implemented)
-Base random roll starts at 1000
+Base random roll starts at 1000 --- in testing
 Optional BLP Factor - Selectable percentage (or add?) - default 1%?
 Optional Sub Factor - Selectable percentage (or add?) - default 25%?
 
