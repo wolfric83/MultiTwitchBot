@@ -59,6 +59,12 @@ Commands:
 * Sub Luck  --- in testing
 * startup UI?
 * SingleChannel Mode?
+* Change Defaults
+  * Roll type Picking
+  * Sub luck on
+  * past winners ignored 5
+  * Multi-Entry Mode
+  * BLP Mode
 
 ## BLP Thoughts (Not Yet Implemented)
 Base random roll starts at 1000 --- in testing
