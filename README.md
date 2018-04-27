@@ -23,7 +23,7 @@ It is recommended to grant mod permission to the bot to prevent dropped messages
 Viewer Commands:
 * **_!reportme_** - Outputs multipliers applied to -your- rolls
 * **_!announcerooms_** - Outputs URLs to participating streams
-
+.
 Streamer Commands:
 * **_!resetrafflebot_** - Leaves all rooms, and resets raffle bot to listen to only default user's commands
     * _Notifies all rooms_
@@ -36,14 +36,13 @@ Streamer Commands:
 * **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
  * todo: fix roll draws to remove all of winners entries from raffle
 * **_!clearsession_** - Resets session list and past winners list 
-
- 
+.
 * **_!changekeyword -Keyword-_** - Changes raffle keyword to -Keyword-
 * **_!changenotice -NoticeText-_** - Change the Notice text (what is being raffled) 
     * Example: **_!changenotice Free Gift Sub_**
     * changes repeating notice to: Now Raffling: Free Gift Sub. Enter by typing: -Keyword-
     * will send initial notice: Next raffle draw: Free Gift Sub. by -yourname-
-    
+.
 * **_!singleraffle_** - Turn on Single Entry mode
 * **_!multiraffle_** - Turn on Multi entory mode (one per User/Channel combination)
 * **_!raffleannounceon_** - Turn on periodic Raffle announcements 
@@ -54,12 +53,11 @@ Streamer Commands:
 * **_!disablesubluck_** - disables Sub Luck
 * **_!setsubluck <X>_** - Sets subluck to <X>
 * **_!setblp <X>_** - Sets Bad Luck Protection bonus to <X> per loss
-
-
+.
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
-
+.
 * **_!noticetime -Number-_** - change notice timeout to -Number- seconds (Minimum 30, default 30)
-
+.
 * **_!quitrafflebot_** - Terminates bot completely
 
 
