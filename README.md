@@ -8,9 +8,11 @@ MultiTwitchBot is an IRC based multi-room raffle bot developed to operate with t
 
 # Features!
 
-  - Allow single entries per person, or multiple for each room they enter from
-  - Internal Mods list (possible future option for any channel mod to perform _-some-_ actions
+  - Allow single entries per person, or multiple - one for each room they enter from
+  - Internal Mods list (possible future option for any channel mod to perform _-some-_ actions)
   - Good Luck Protection - Host Selectable winner exclude system - exclude X previous winners from draw
+  - Sub Luck
+  - Bad Luck Protection
   - More features to be added by demand...
 
 
@@ -62,21 +64,25 @@ It is recommended to grant mod permission to the bot to prevent dropped messages
 
 
 #### Default settings
-* Channel list: Wolfric83, wolfrickeystonebot (Will be updated to Zatcharygaming when ready for proper use)
+* Channel list: Wolfric83 (Will be updated to Zatcharygaming when ready for proper use)
   * Additional hosts must be invited by an existing owner of a channel the bot is currently in by _!invitehost_
-* Keyword: "keytime"
-* Entry Type: Single Entry Mode
-* Past Winners Ignored: 3
-* Notice Text: M+15 keys
+* Keyword: "metime"
+* Entry Type: Multi Entry Mode (each user can enter once from each channel)
+* Past Winners Ignored: 5
+* Notice Text: testing raffle system
 * Notice Time: 30 seconds
+* Draw type: Roll
+* Starting roll: 1-1000
+* BLP: +1%
+* SubLuck: 30%
 
 ## ToDo:
-* change to Rolls instead of random pick  --- in testing
-  * Reroll on draw --- in testing
-* option to add BLP to roll each time someone doesn't win --- in testing
+* ~~change to Rolls instead of random pick  --- in testing~~~
+  * ~~Reroll on draw --- in testing~~
+* ~~option to add BLP to roll each time someone doesn't win --- in testing~~
 * RaffleGroups - ability to have multiple raffle groups (far future)
-* Long term storage of BLP (future)
-* Sub Luck  --- in testing
+* ~~Long term storage of BLP (future)~~
+* ~~Sub Luck  --- in testing~~
 * startup UI?
 * SingleChannel Mode?
 * Change Defaults
