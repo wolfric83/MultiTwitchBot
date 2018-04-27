@@ -20,26 +20,48 @@ MultiTwitchBot is python based. If you are using the pre-packaged exe, you don't
 
 It is recommended to grant mod permission to the bot to prevent dropped messages.
 
+Viewer Commands:
+* **_!reportme_** - Outputs multipliers applied to -your- rolls
+* **_!announcerooms_** - Outputs URLs to participating streams
 
-Commands:
-* **_!resetrafflebot_** - Leaves all rooms, and resets raffle bot to listen to only your commands
+Streamer Commands:
+* **_!resetrafflebot_** - Leaves all rooms, and resets raffle bot to listen to only default user's commands
     * _Notifies all rooms_
 * **_!invitehost -TwitchName-_** - posts message to current channel requesting response to invite the bot to -TwitchName-
 * **_!acceptinvite_** - Required by additional hosts to bring bot into their channel.
 * **_!raffleleave_** - Asks RaffleBot to leave your channel
  
 * **_!startraffle_** - Resets the current Raffle list, waits for saved keyword for entry to raffle
+* **_!closeraffle_** - Stops listening for raffle keywords. saves everything to DB
+* **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
+ * todo: fix roll draws to remove all of winners entries from raffle
+* **_!clearsession_** - Resets session list and past winners list 
+
+ 
 * **_!changekeyword -Keyword-_** - Changes raffle keyword to -Keyword-
-* **_!startraffle_** - Resets the current Raffle list, waits for saved keyword for entry to raffle
-* **_!draw_** - Draws one winner and reports to all chats. removes winner from list. multiple !draw commands will pull unique winners until none remain in the current list.
-* **_!singleraffle_** - Turn on Single Entry mode
-* **_!multiraffle_** - Turn on Multi entory mode (one per User/Channel)
-* **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
 * **_!changenotice -NoticeText-_** - Change the Notice text (what is being raffled) 
     * Example: **_!changenotice Free Gift Sub_**
     * changes repeating notice to: Now Raffling: Free Gift Sub. Enter by typing: -Keyword-
     * will send initial notice: Next raffle draw: Free Gift Sub. by -yourname-
+    
+* **_!singleraffle_** - Turn on Single Entry mode
+* **_!multiraffle_** - Turn on Multi entory mode (one per User/Channel combination)
+* **_!raffleannounceon_** - Turn on periodic Raffle announcements 
+* **_!raffleannounceoff_** - Turn off periodic Raffle announcements 
+* **_!enableblp_** - enables Bad Luck Protection
+* **_!disableblp_** - disables Bad Luck Protection
+* **_!enablesubluck_** - enables Sub Luck
+* **_!disablesubluck_** - disables Sub Luck
+* **_!setsubluck <X>_** - Sets subluck to <X>
+* **_!setblp <X>_** - Sets Bad Luck Protection bonus to <X> per loss
+
+
+* **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
+
 * **_!noticetime -Number-_** - change notice timeout to -Number- seconds (Minimum 30, default 30)
+
+* **_!quitrafflebot_** - Terminates bot completely
+
 
 #### Default settings
 * Channel list: Wolfric83, wolfrickeystonebot (Will be updated to Zatcharygaming when ready for proper use)
