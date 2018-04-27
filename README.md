@@ -39,7 +39,7 @@ Participating streamer types **_!draw**
   
   Bot announces winner into stream
   
-Rinse and Repeat
+Rinse and Repeat from **_!startraffle_**
 
 
 
