@@ -34,7 +34,7 @@ It is recommended to grant mod permission to the bot to prevent dropped messages
 * **_!startraffle_** - Resets the current Raffle list, waits for saved keyword for entry to raffle
 * **_!closeraffle_** - Stops listening for raffle keywords. saves everything to DB
 * **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
- * todo: fix roll draws to remove all of winners entries from raffle
+    * todo: fix roll draws to remove all of winners entries from raffle
 * **_!clearsession_** - Resets session list and past winners list 
 #####
 * **_!changekeyword -Keyword-_** - Changes raffle keyword to -Keyword-
