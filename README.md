@@ -22,6 +22,19 @@ MultiTwitchBot is python based. If you are using the pre-packaged exe, you don't
 
 It is recommended to grant mod permission to the bot to prevent dropped messages.
 
+### Typical use:
+Streamer invites additional hosts with **_!invitehost -TwitchName-_**
+Additional participating streams accept with **_!acceptinvite_** (Must be the most recently invited host)
+Participating streamer types **_!startraffle_**
+Viewers on any stream type <Keyword>
+... time passes as viewers enter 
+Participating streamer types **_!closeraffle_** (optional)
+Participating streamer types **_!draw**
+  Bot announces winner into stream
+Rinse and Repeat
+
+
+
 ### Viewer Commands:
 * **_!reportme_** - Outputs multipliers applied to -your- rolls
 * **_!announcerooms_** - Outputs URLs to participating streams
