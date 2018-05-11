@@ -13,31 +13,34 @@ MultiTwitchBot is an IRC based multi-room raffle bot developed to operate with t
   - Good Luck Protection - Host Selectable winner exclude system - exclude X previous winners from draw
   - Sub Luck
   - Bad Luck Protection
+  - Roll method is: 1-1000 (streamer selectable) with luck increasing the minimum roll number
+      - eg: Sub with 30% bonus plus 20% BLP would roll 501-1000
+       - fresh non-sub would roll 1-1000
   - More features to be added by demand...
 
 
 ## How to use
 
-MultiTwitchBot is python based. If you are using the pre-packaged exe, you don't have any pre-requisites other than the exe. (To be provided at a later date - currently executed manually by Wolfric83)
+MultiTwitchBot is python based. Currently executed manually by Wolfric83
 
-It is recommended to grant mod permission to the bot to prevent dropped messages.
+It is recommended (but not required) to grant mod permission to the bot to prevent dropped messages.
 
 ### Typical use:
 Streamer invites additional hosts with **_!invitehost -TwitchName-_**
 
-Additional participating streams accept with **_!acceptinvite_** (Must be the most recently invited host)
+Additional participating streamers accept with **_!acceptinvite_** (Must be the most recently invited host)
 
 Participating streamer types **_!startraffle_**
 
 Viewers on any stream type <Keyword>
   
-... time passes as viewers enter 
+... time passes as viewers enter (Bot continues to send notices to channel - these are not new raffles)
   
 Participating streamer types **_!closeraffle_** (optional)
   
-Participating streamer types **_!draw**
+Participating streamer types **_!draw_**
   
-  Bot announces winner into stream
+  Bot announces winner into streams
   
 Rinse and Repeat from **_!startraffle_**
 
@@ -94,8 +97,8 @@ Rinse and Repeat from **_!startraffle_**
 * Notice Time: 30 seconds
 * Draw type: Roll
 * Starting roll: 1-1000
-* BLP: +1%
-* SubLuck: 30%
+* BLP: +1% (added to minumum)
+* SubLuck: 30% (added to minimum)
 
 ## ToDo:
 * ~~change to Rolls instead of random pick  --- in testing~~~
