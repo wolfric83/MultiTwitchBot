@@ -21,7 +21,7 @@ MultiTwitchBot is an IRC based multi-room raffle bot developed to operate with t
 
 ## How to use
 
-MultiTwitchBot is python based. Currently executed manually by Wolfric83
+MultiTwitchBot is python based, run from cloud based virtual hosting in the US. Access on demand to the web console provided by Wolfric83
 
 It is recommended (but not required) to grant mod permission to the bot to prevent dropped messages.
 
