@@ -62,6 +62,7 @@ Rinse and Repeat from **_!startraffle_**
 * **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
     * todo: fix roll draws to remove all of winners entries from raffle
 * **_!clearsession_** - Resets session list and past winners list 
+* **_!undo_** - Undos the last !draw, reverting the BLP for the last drawn winner. 
 #####
 * **_!changekeyword -Keyword-_** - Changes raffle keyword to -Keyword-
 * **_!changenotice -NoticeText-_** - Change the Notice text (what is being raffled) 
