@@ -104,7 +104,7 @@ Rinse and Repeat from **_!startraffle_**
 
 ## ToDo:
 * ~~change to Rolls instead of random pick  --- in testing~~~
-  * ~~Reroll on draw --- in testing~~
+  * ~~Reroll on draw --- ~~
 * ~~option to add BLP to roll each time someone doesn't win --- in testing~~
 * RaffleGroups - ability to have multiple raffle groups (far future)
 * ~~Long term storage of BLP (future)~~
