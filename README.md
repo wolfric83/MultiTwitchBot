@@ -80,6 +80,7 @@ Rinse and Repeat from **_!startraffle_**
 * **_!disablesubluck_** - disables Sub Luck
 * **_!setsubluck <X>_** - Sets subluck to <X>
 * **_!setblp <X>_** - Sets Bad Luck Protection bonus to <X> per loss
+* **_!addblp <twitchUser> <X>_** - Adds <X> Bad Luck Protection the the specified Twitch user
 #####
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
 #####
