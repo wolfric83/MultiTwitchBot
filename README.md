@@ -103,8 +103,8 @@ Rinse and Repeat from **_!startraffle_**
 * SubLuck: 30% (added to minimum)
 
 ## ToDo:
-* ~~change to Rolls instead of random pick  --- in testing~~~
-  * ~~Reroll on draw --- ~~
+* ~~change to Rolls instead of random pick~~
+  * ~~Reroll on draw~~
 * ~~option to add BLP to roll each time someone doesn't win --- in testing~~
 * RaffleGroups - ability to have multiple raffle groups (far future)
 * ~~Long term storage of BLP (future)~~
