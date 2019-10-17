@@ -32,7 +32,7 @@ Additional participating streamers accept with **_!acceptinvite_** (Must be the 
 
 Participating streamer types **_!startraffle_**
 
-Viewers on any stream type <Keyword>
+Viewers on any stream type \<Keyword\>
   
 ... time passes as viewers enter (Bot continues to send notices to channel - these are not new raffles)
   
