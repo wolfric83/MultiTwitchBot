@@ -87,6 +87,8 @@ Rinse and Repeat from **_!startraffle_**
 * **_!noticetime -Number-_** - change notice timeout to -Number- seconds (Minimum 30, default 30)
 #####
 * **_!quitrafflebot_** - Terminates bot completely
+* **_!savevarstosql_** - Saves modified settings (Notice Text, keyword, notice time etc.) to database
+  
 
 
 #### Default settings
