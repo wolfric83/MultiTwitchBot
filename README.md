@@ -57,7 +57,8 @@ Rinse and Repeat from **_!startraffle_**
 * **_!acceptinvite_** - Required by additional hosts to bring bot into their channel.
 * **_!raffleleave_** - Asks RaffleBot to leave your channel
 #####
-* **_!startraffle_** - Resets the current Raffle list, waits for saved keyword for entry to raffle
+* **_!startraffle_** - Resets the current Raffle list, listens for saved keyword for entry to raffle
+* **_!startraffle -NewKeyWord-_** - Resets the current Raffle list, changes keyword and listens for entries to raffle
 * **_!closeraffle_** - Stops listening for raffle keywords. saves everything to DB
 * **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
     * todo: fix roll draws to remove all of winners entries from raffle
@@ -85,6 +86,8 @@ Rinse and Repeat from **_!startraffle_**
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
 #####
 * **_!noticetime -Number-_** - change notice timeout to -Number- seconds (Minimum 30, default 30)
+* **_!reportsettings_** - Outputs to chat configured settings (BLP, Subluck, Max Roll, Notice Time, Past winner exclude settings)
+
 #####
 * **_!quitrafflebot_** - Terminates bot completely
 * **_!savevarstosql_** - Saves modified settings (Notice Text, keyword, notice time etc.) to database
