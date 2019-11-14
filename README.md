@@ -61,9 +61,10 @@ Rinse and Repeat from **_!startraffle_**
 * **_!startraffle -NewKeyWord-_** - Resets the current Raffle list, changes keyword and listens for entries to raffle
 * **_!closeraffle_** - Stops listening for raffle keywords. saves everything to DB
 * **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
-    * todo: fix roll draws to remove all of winners entries from raffle
 * **_!clearsession_** - Resets session list and past winners list 
 * **_!undo_** - Undos the last !draw, reverting the BLP for the last drawn winner. 
+* **_!redraw_** - Combines !undo and !draw. reverts previous winners BLP, removes that entry from draw, and Draws one winner and reports to all chats. 
+
 #####
 * **_!changekeyword -Keyword-_** - Changes raffle keyword to -Keyword-
 * **_!changenotice -NoticeText-_** - Change the Notice text (what is being raffled) 
@@ -82,6 +83,9 @@ Rinse and Repeat from **_!startraffle_**
 * **_!setsubluck <X>_** - Sets subluck to <X>
 * **_!setblp <X>_** - Sets Bad Luck Protection bonus to <X> per loss
 * **_!addblp <twitchUser> <X>_** - Adds <X> Bad Luck Protection the the specified Twitch user
+* **_!checkblp <twitchUser>_** - Outputs the Base BLP value for a given Twitch user. Does not include Sub Luck.
+* **_!wolfricversion_** - Outputs the version number of the currently running instance of WolfricKeystonBot 
+
 #####
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
 #####
