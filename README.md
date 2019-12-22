@@ -64,6 +64,7 @@ Rinse and Repeat from **_!startraffle_**
 * **_!clearsession_** - Resets session list and past winners list 
 * **_!undo_** - Undos the last !draw, reverting the BLP for the last drawn winner. 
 * **_!redraw_** - Combines !undo and !draw. reverts previous winners BLP, removes that entry from draw, and Draws one winner and reports to all chats. 
+* **_!reopenraffle_** - starts accepting additional entries when typed after a !draw. 
 
 #####
 * **_!changekeyword -Keyword-_** - Changes raffle keyword to -Keyword-
