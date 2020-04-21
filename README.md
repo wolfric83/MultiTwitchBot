@@ -61,7 +61,7 @@ Rinse and Repeat from **_!startraffle_**
 * **_!startraffle -NewKeyWord-_** - Resets the current Raffle list, changes keyword and listens for entries to raffle
 * **_!closeraffle_** - Stops listening for raffle keywords. saves everything to DB
 * **_!draw_** - Stops listening for raffle keywords. saves everything to DB. Draws one winner and reports to all chats. 
-* **_!clearsession_** - Resets session list and past winners list 
+* ~**_!clearsession_** - Resets session list and past winners list~
 * **_!undo_** - Undos the last !draw, reverting the BLP for the last drawn winner. 
 * **_!redraw_** - Combines !undo and !draw. reverts previous winners BLP, removes that entry from draw, and Draws one winner and reports to all chats. 
 * **_!reopenraffle_** - starts accepting additional entries when typed after a !draw. 
