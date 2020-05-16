@@ -86,8 +86,8 @@ Rinse and Repeat from **_!startraffle_**
 * **_!addblp <twitchUser> <X>_** - Adds <X> Bad Luck Protection the the specified Twitch user
 * **_!checkblp <twitchUser>_** - Outputs the Base BLP value for a given Twitch user. Does not include Sub Luck.
 * **_!wolfricversion_** - Outputs the version number of the currently running instance of WolfricKeystonBot 
-* **_!enableblpoverflow** - Enables BLP Overflow - When someone wins with BLP adding up to more than 100, overflow is re-added to them.
-* **_!disableblpoverflow** - Disables BLP Overflow
+* **_!enableblpoverflow_** - Enables BLP Overflow - When someone wins with BLP adding up to more than 100, overflow is re-added to them.
+* **_!disableblpoverflow_** - Disables BLP Overflow
 
 #####
 * **_!pastwinnersexclude -Number-_** - exclude -number- past winners from draws
